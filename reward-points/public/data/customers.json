@@ -1,0 +1,257 @@
+[
+  {
+      "customerId": "1",
+      "customerName": "John",
+      "last_name": "Doe",
+      "email": "john.doe@example.com",
+      "phone": "+1-800-555-0131",
+      "gender": "Male",
+      "age": 32,
+      "address": "123 Elm St, Springfield, IL 62701",
+      "transactions": [
+          {
+              "transactionId": "101",
+              "date": "2025-07-01",
+              "amount": 250.00,
+              "description": "Purchase at supermarket"
+          },
+          {
+              "transactionId": "102",
+              "date": "2025-07-10",
+              "amount": 75.50,
+              "description": "Restaurant bill"
+          }
+      ]
+  },
+  {
+      "customerId": "2",
+      "customerName": "Jane",
+      "last_name": "Smith",
+      "email": "jane.smith@example.com",
+      "phone": "+1-800-555-0199",
+      "gender": "Female",
+      "age": 28,
+      "address": "456 Oak St, Dallas, TX 75201",
+      "transactions": [
+          {
+              "transactionId": "201",
+              "date": "2025-07-02",
+              "amount": 150.75,
+              "description": "Online shopping"
+          }
+      ]
+  },
+  {
+      "customerId": "3",
+      "customerName": "Michael",
+      "last_name": "Johnson",
+      "email": "michael.j@example.com",
+      "phone": "+1-800-555-0145",
+      "gender": "Male",
+      "age": 45,
+      "address": "789 Pine St, Denver, CO 80201",
+      "transactions": [
+          {
+              "transactionId": "301",
+              "date": "2025-07-03",
+              "amount": 89.99,
+              "description": "Book purchase"
+          }
+      ]
+  },
+  {
+      "customerId": "4",
+      "customerName": "Emily",
+      "last_name": "Davis",
+      "email": "emily.d@example.com",
+      "phone": "+1-800-555-0149",
+      "gender": "Female",
+      "age": 38,
+      "address": "159 Maple St, Seattle, WA 98101",
+      "transactions": [
+          {
+              "transactionId": "401",
+              "date": "2025-07-05",
+              "amount": 60.00,
+              "description": "Gym membership"
+          }
+      ]
+  },
+  {
+      "customerId": "5",
+      "customerName": "David",
+      "last_name": "Williams",
+      "email": "david.w@example.com",
+      "phone": "+1-800-555-0201",
+      "gender": "Male",
+      "age": 52,
+      "address": "525 Birch St, Miami, FL 33101",
+      "transactions": [
+          {
+              "transactionId": "501",
+              "date": "2025-07-08",
+              "amount": 300.50,
+              "description": "Car maintenance"
+          }
+      ]
+  },
+  {
+      "customerId": "6",
+      "customerName": "Laura",
+      "last_name": "Garcia",
+      "email": "laura.g@example.com",
+      "phone": "+1-800-555-0187",
+      "gender": "Female",
+      "age": 26,
+      "address": "888 Cherry St, Atlanta, GA 30301",
+      "transactions": []
+  },
+  {
+      "customerId": "7",
+      "customerName": "James",
+      "last_name": "Brown",
+      "email": "james.b@example.com",
+      "phone": "+1-800-555-0109",
+      "gender": "Male",
+      "age": 40,
+      "address": "205 Cedar St, Boston, MA 02101",
+      "transactions": []
+  },
+  {
+      "customerId": "8",
+      "customerName": "Sarah",
+      "last_name": "Miller",
+      "email": "sarah.m@example.com",
+      "phone": "+1-800-555-0153",
+      "gender": "Female",
+      "age": 34,
+      "address": "303 Walnut St, San Francisco, CA 94101",
+      "transactions": []
+  },
+  {
+      "customerId": "9",
+      "customerName": "Richard",
+      "last_name": "Lee",
+      "email": "richard.l@example.com",
+      "phone": "+1-800-555-0162",
+      "gender": "Male",
+      "age": 29,
+      "address": "789 Fir St, Los Angeles, CA 90001",
+      "transactions": [
+          {
+              "transactionId": "901",
+              "date": "2025-07-09",
+              "amount": 450.00,
+              "description": "Home appliances"
+          }
+      ]
+  },
+  {
+      "customerId": "10",
+      "customerName": "Lisa",
+      "last_name": "Anderson",
+      "email": "lisa.a@example.com",
+      "phone": "+1-800-555-0180",
+      "gender": "Female",
+      "age": 31,
+      "address": "501 Orchid Ave, Chicago, IL 60601",
+      "transactions": [
+          {
+              "transactionId": "1001",
+              "date": "2025-07-12",
+              "amount": 125.25,
+              "description": "Dining out"
+          }
+      ]
+  },
+  {
+      "customerId": "11",
+      "customerName": "Mark",
+      "last_name": "Wilson",
+      "email": "mark.w@example.com",
+      "phone": "+1-800-555-0190",
+      "gender": "Male",
+      "age": 37,
+      "address": "234 Orchid St, Phoenix, AZ 85001",
+      "transactions": [
+          {
+              "transactionId": "1101",
+              "date": "2025-07-11",
+              "amount": 99.99,
+              "description": "Sports equipment"
+          }
+      ]
+  },
+  {
+      "customerId": "12",
+      "customerName": "Karen",
+      "last_name": "Taylor",
+      "email": "karen.t@example.com",
+      "phone": "+1-800-555-0112",
+      "gender": "Female",
+      "age": 45,
+      "address": "30 Sunset Blvd, Orlando, FL 32801",
+      "transactions": [
+          {
+              "transactionId": "1201",
+              "date": "2025-07-13",
+              "amount": 500.00,
+              "description": "Electronics repair"
+          }
+      ]
+  },
+  {
+      "customerId": "13",
+      "customerName": "Matthew",
+      "last_name": "Harris",
+      "email": "matthew.h@example.com",
+      "phone": "+1-800-555-0183",
+      "gender": "Male",
+      "age": 60,
+      "address": "600 Maple Ave, Philadelphia, PA 19101",
+      "transactions": [
+          {
+              "transactionId": "1301",
+              "date": "2025-07-14",
+              "amount": 800.00,
+              "description": "Medical expenses"
+          }
+      ]
+  },
+  {
+      "customerId": "14",
+      "customerName": "Steven",
+      "last_name": "Moore",
+      "email": "steven.m@example.com",
+      "phone": "+1-800-555-0195",
+      "gender": "Male",
+      "age": 50,
+      "address": "1250 Royal Rd, San Diego, CA 92101",
+      "transactions": [
+          {
+              "transactionId": "1401",
+              "date": "2025-07-10",
+              "amount": 60.00,
+              "description": "Pet adoption"
+          }
+      ]
+  },
+  {
+      "customerId": "15",
+      "customerName": "Sophia",
+      "last_name": "Scott",
+      "email": "sophia.s@example.com",
+      "phone": "+1-800-555-0170",
+      "gender": "Female",
+      "age": 27,
+      "address": "899 Riverside, Seattle, WA 98101",
+      "transactions": [
+          {
+              "transactionId": "1501",
+              "date": "2025-07-14",
+              "amount": 100.00,
+              "description": "Grocery shopping"
+          }
+      ]
+  }
+]
