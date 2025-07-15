@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
-import { fetchCustomers } from './utils/api';
+import { fetchCustomers } from './api/fetchCustomers';
 import CustomerDropdown from './components/CustomerDropdown';
 import RewardsSummary from './components/RewardsSummary';
 import TransactionList from './components/TransactionList';

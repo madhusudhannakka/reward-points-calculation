@@ -1,5 +1,5 @@
 import React from 'react';
-import calculatePoints from './calculatePoints';
+import calculatePoints from '../utils/calculatePoints';
 
 const RewardsSummary = ({ transactions }) => {
   const monthly = {};
