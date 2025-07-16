@@ -1,11 +1,11 @@
 import React from 'react';
-import calculatePoints from '../utils/calculatePoints';
+import CalculatePoints from '../utils/calculatePoints';
 
 const RewardsSummary = ({ transactions }) => {
   const monthly = {};
   transactions.forEach(({ amount, date }) => {
     const month = new Date(date).toLocaleString('default', { month: 'short', year: 'numeric' });
-    const pts = calculatePoints(amount);
+    const pts = CalculatePoints(amount);
     monthly[month] = (monthly[month] || 0) + pts;
   });
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import calculatePoints from '../utils/calculatePoints';
+import CalculatePoints from '../utils/calculatePoints';
 
 const TransactionList = ({ transactions, selectedMonth }) => {
   const filtered = transactions.filter(t => {
@@ -14,7 +14,7 @@ const TransactionList = ({ transactions, selectedMonth }) => {
         <ul>
           {filtered.map(t => (
             <li key={t.transactionId}>
-              {t.date} - ${t.amount} → {calculatePoints(t.amount)} pts
+              {t.date} - ${t.amount} → {CalculatePoints(t.amount)} pts
             </li>
           ))}
         </ul>

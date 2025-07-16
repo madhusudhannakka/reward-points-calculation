@@ -1,7 +1,11 @@
 import { render } from '@testing-library/react';
-import calculatePoints from '../utils/calculatePoints';
+import CalculatePoints from '../utils/calculatePoints';
 
-test('calculatePoints returns 90 for $120', () => {
-  render(<calculatePoints />);
-  expect(calculatePoints(120)).toBe(90);
+describe('CalculatePoints Component', () => {
+  test('calculatePoints returns 90 for $120', () => {
+    render(<CalculatePoints />);
+    expect(CalculatePoints(120)).toBe(90);
+  });
 });
+
+
