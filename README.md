@@ -29,5 +29,17 @@ npm start
 
 The Application Runs on **localhost:3000**
 
+In order to run the application Test case following command
+
+```bash
+npm run test
+```
+
+In order to generate coverage folder following command
+
+```bash
+npm run test --coverage
+```
+
 
 
